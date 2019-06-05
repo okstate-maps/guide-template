@@ -28,17 +28,34 @@ There are many steps to locating and selecting a McCasland map for georeferencin
 
 ![File Name](images/FileName.PNG)
 
-4. To locate this map on the desktop, click **Digitization (\\ulib.okstate.edu)(T:)** aka the *T File*.
-5. Click the **Maps** folder.
-6. Click **Maps_00**.
-7. Select the **McCalsand** folder. Here you will see folders sorted by numbers (how to word this).
+### Has this map been georeferenced before?
+1. To locate this map on the desktop, click **Digitization (\\ulib.okstate.edu)(T:)** aka the *T File*.
+2. Click the **Maps** folder.
+3. Click **MPSI_Aerials**.
+4. Select the **McCasland_Georeferencing** folder and search for the map's file name.
+* *Note: If the file name is in this folder, the map has already been georeferenced.
+
+### Locating the File 
+1. To locate this map on the desktop, click **Digitization (\\ulib.okstate.edu)(T:)** aka the *T File*.
+2. Click the **Maps** folder.
+3. Click **Maps_00**.
+4. Select the **McCalsand** folder. Here you will see folders sorted by numbers (how to word this).
 
 ![Folder Numbers](images/FolderNumbers.PNG)
 
-8. Select the folder that contains the file name of the map you chose and locate to correspondig TIF File.
-9. Open the file in *Adobe Photoshop* and click **File, Save As**. 
-10. Make sure to name this new file exactly as the TIF is named and change the "Save as Type" to **JPEG**. Then hit **Save**.
-11. A pop up should appear. Do not change any of the settings unless instructed to do so. Click **OK** and exit *Photoshop*.
+5. Select the folder that contains the file name of the map you chose and locate to correspondig TIF File.
+6. Open the file in *Adobe Photoshop* and click **File, Save As**. 
+
+![Save as JPEG](images/SaveAsJPG.PNG)
+
+
+7. Make sure to name this new file exactly as the TIF is named and change the "Save as Type" to **JPEG**. Then hit **Save**.
+
+![Save as Type](images/SaveAsType.PNG)
+
+8. A pop up should appear. Do not change any of the settings unless instructed to do so. Click **OK** and exit *Photoshop*.
+
+![JPEG Options](images/JPEGOptions.PNG)
 
 ## *Georeferencing with ArcPro*
 
@@ -66,7 +83,7 @@ Now that a new project has been created, a folder connection must be added to im
 
 ![Added File](images/AddedFile.PNG)
 
-Note: For georeferencing in ArcPro, JPGs are the preferred file type. 
+* *Note: For georeferencing in ArcPro, JPGs are the preferred file type. 
 
 #### Georeferencing
 
@@ -102,7 +119,7 @@ Once a file has been added to the project, the georeferencing process can begin.
  
  ![Control Points](images/ControlPoints.PNG)
  
-  Note: Spline is the preferred transformation for accuracy and requires 10 or more control points, but there are other transformations when this number of control points is not possible.
+ * *Note: Spline is the preferred transformation for accuracy and requires 10 or more control points, but there are other transformations when this number of control points is not possible.
   
  ##### Transforming the Image
  Transforming the image allows the raster image to be manipulated so the control points overlap.
@@ -113,7 +130,7 @@ Once a file has been added to the project, the georeferencing process can begin.
  
  ![Transformation](images/Transformation.PNG)
  
- Note: **Spline** is preffered because it renders the most accurate transformations.
+ * *Note: **Spline** is preffered because it renders the most accurate transformations.
  
  3. The image is now transformed and can be saved or edited if desired.
  
