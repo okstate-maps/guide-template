@@ -49,7 +49,7 @@ There are many steps to locating and selecting a McCasland map for georeferencin
 ![Save as JPEG](images/SaveAsJPG.PNG)
 
 
-7. Make sure to name this new file exactly as the TIF is named and change the "Save as Type" to **JPEG**. Then hit **Save**.
+7. Make sure to name this new file exactly as the TIF is named and change the *Save as Type* to **JPEG**. Then hit **Save**.
 
 ![Save as Type](images/SaveAsType.PNG)
 
